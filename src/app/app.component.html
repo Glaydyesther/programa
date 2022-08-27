@@ -34,11 +34,12 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">{{art}}</th>
-      <td>{{datos}}</td>
-      <td>{{datos}}</td>
-      <td>{{datos}}</td>      
+    <tr *ngFor="let datoss of datosMenorFechaInicial">
+      <th scope="row">1</th>
+      <td>{{existInicial}}</td>
+      <td>{{sumaMov1Entrada}}</td>
+      <td>{{sumaMov2Salidas}}</td> 
+      <td>{{existFinal}}</td>     
     </tr>
   </tbody>
 </table>
